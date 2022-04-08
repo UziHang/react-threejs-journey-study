@@ -29,10 +29,10 @@ const  BoxGeometry = (props) => {
       <meshStandardMaterial   color={hover? 'hotpink' : 'orange'} />
 
       {/* 法向量映射到RGB颜色的材质 */}
-      {/* <meshStandardMaterial   color={hover? 'hotpink' : 'orange'} /> */}
+      <meshLambertMaterial   color={hover? 'hotpink' : 'orange'} />
 
       {/*    物体本身颜色  着色 （不受光照影响）*/}
-      {/* <meshBasicMaterial  color='hotpink' /> */}
+      <meshBasicMaterial  color='hotpink' />
     </mesh>
   )
 }
