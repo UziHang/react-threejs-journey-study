@@ -9,6 +9,7 @@ import { useThree} from '@react-three/fiber';
 import Level from './components/Level'
 import Cactus from './components/Cactus'
 import Camera from './components/Camera';
+import ReactIcon from './components/ReactIcon'
 const Levels = () => {
 
 
@@ -50,6 +51,7 @@ const Levels = () => {
           <Level />
           <Cactus />
           <Camera />
+          <ReactIcon />
           </group>
         </PresentationControls>
     </Canvas>
